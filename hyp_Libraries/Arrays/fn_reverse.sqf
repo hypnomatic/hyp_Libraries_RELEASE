@@ -30,7 +30,7 @@ License:
 
 private["_this","_arr"];
 _arr = _this select 0;
-for "_i" from 0 to floor((count _arr)/2) do {
+for "_i" from 0 to floor((count(_arr) - 1)/2) do {
     private["_j","_temp"];
     _j = count(_arr) - 1 - _i;
     _temp = _arr select _i;
