@@ -22,6 +22,7 @@ License:
     Copyright (c) 2013, Hypnomatic
     All rights reserved.
     This code is released under the very permissive BSD License.  The full contents of this license may be found at ARMA.DatHypno.net/Article/BSD/
+*/
 
 #include "#Headers.sqf"
 
