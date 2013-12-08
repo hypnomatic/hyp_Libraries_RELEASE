@@ -6,7 +6,7 @@ Author:
     Hypnomatic
 
 Last Updated:
-    10/29/2013
+    12/8/2013
 
 Documentation:
     See ARMA.DatHypno.net for all up to date documentation
@@ -29,7 +29,7 @@ License:
 private["_this","_arr","_size"];
 _arr  = _this select 0;
 _size = _this select 1;
-if (_size >= 0) exitWith {_arr resize _size;};
+if (_size >= 0) exitWith {_arr resize _size; _arr};
 
 [_arr] call arr_fnc_reverse;
 _arr resize abs(_size);
